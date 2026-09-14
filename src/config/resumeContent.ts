@@ -184,7 +184,7 @@ export const RESUME_CONTENT: ResumeContent = {
   references: [
     {
       name: 'Prof. Dr. Touhid Bhuiyan',
-      lines: ['Professor & Head, Department of CSE', 'Daffodil International University'],
+      lines: ['Professor, Department of CSE', 'Daffodil International University'],
       email: 'touhid@daffodilvarsity.edu.bd',
       phone: '+880 2-224441833',
     },
