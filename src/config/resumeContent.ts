@@ -79,8 +79,7 @@ export const RESUME_CONTENT: ResumeContent = {
       date: '(2023 – Present)',
       degree: 'BSc in Computer Science & Engineering (4th Year)',
       institution: 'Daffodil International University (DIU), Dhaka, Bangladesh',
-      detail:
-        'Specializing in Software Engineering, Data Structures & Algorithms, Database Systems, and Web Technologies. Awarded Student Library Award.',
+      detail: 'CGPA: In Progress (4th Year)',
     },
     {
       date: '(2019 – 2021)',
