@@ -12,6 +12,8 @@ export function isSafeNavLink(url: string): boolean {
   return isSafeExternalUrl(trimmed);
 }
 
+const ALLOWED_EXTERNAL_SCHEMES = ['https:', 'http:', 'mailto:', 'tel:'];
+
 export function isSafeExternalUrl(url: string): boolean {
   const trimmed = url.trim();
   if (!trimmed) return false;
@@ -21,7 +23,7 @@ export function isSafeExternalUrl(url: string): boolean {
     if (BLOCKED_SCHEMES.includes(parsed.protocol.toLowerCase())) {
       return false;
     }
-    return parsed.protocol === 'https:' || parsed.protocol === 'http:';
+    return ALLOWED_EXTERNAL_SCHEMES.includes(parsed.protocol.toLowerCase());
   } catch {
     return false;
   }
