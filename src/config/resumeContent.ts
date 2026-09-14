@@ -70,7 +70,7 @@ export const RESUME_CONTENT: ResumeContent = {
     website: 'https://asmi-bae.github.io',
     github: 'https://github.com/asmi-bae',
     sex: 'Female',
-    dateOfBirth: '',
+    dateOfBirth: '24.01.2002',
     photo: '/images/profile.jpg',
   },
   about:
