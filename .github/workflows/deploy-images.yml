@@ -70,7 +70,7 @@ jobs:
 
       - name: Deploy image CDN Worker
         if: steps.r2.outputs.enabled == 'true'
-        uses: cloudflare/wrangler-action@v3
+        uses: cloudflare/wrangler-action@v4
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
