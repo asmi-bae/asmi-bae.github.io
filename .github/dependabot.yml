@@ -1,0 +1,59 @@
+version: 2
+
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 10
+    groups:
+      frontend-dependencies:
+        patterns:
+          - "*"
+    labels:
+      - dependencies
+      - frontend
+
+  - package-ecosystem: npm
+    directory: /workers/contact-api
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    groups:
+      worker-dependencies:
+        patterns:
+          - "*"
+    ignore:
+      # wrangler/miniflare pins ws@8.20.1; package.json overrides force ws@^8.21.0
+      - dependency-name: ws
+    labels:
+      - dependencies
+      - worker
+
+  - package-ecosystem: npm
+    directory: /workers/image-cdn
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    groups:
+      image-cdn-dependencies:
+        patterns:
+          - "*"
+    ignore:
+      - dependency-name: ws
+    labels:
+      - dependencies
+      - worker
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+    open-pull-requests-limit: 5
+    labels:
+      - dependencies
+      - ci

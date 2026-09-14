@@ -1,0 +1,346 @@
+{
+  "site": {
+    "title": "Asmita Rahman | AI/ML & Full-Stack Developer",
+    "logo": {
+      "text": "Asmita",
+      "span": "Rahman."
+    },
+    "favicon": "/images/favicon.ico",
+    "nav": [
+      {
+        "label": "Home",
+        "link": "#hero"
+      },
+      {
+        "label": "About",
+        "link": "#about"
+      },
+      {
+        "label": "Skills",
+        "link": "#skills"
+      },
+      {
+        "label": "Services",
+        "link": "#services"
+      },
+      {
+        "label": "Portfolio",
+        "link": "#portfolio"
+      },
+      {
+        "label": "Contact",
+        "link": "#contact"
+      }
+    ],
+    "sections": {
+      "about": {
+        "subtitle": "Who I Am",
+        "title": "About Me"
+      },
+      "skills": {
+        "subtitle": "My Stack",
+        "title": "Technical Skills"
+      },
+      "services": {
+        "subtitle": "What I Do",
+        "title": "My Services"
+      },
+      "portfolio": {
+        "subtitle": "My Works",
+        "title": "Featured Projects"
+      },
+      "contact": {
+        "subtitle": "Get in Touch",
+        "title": "Contact Me"
+      }
+    },
+    "footer": "&copy; 2026 Asmita Rahman. All rights reserved.",
+    "policies": {
+      "terms": {
+        "title": "Terms of Service | Asmita Rahman",
+        "heading": "Terms of Service",
+        "lastUpdated": "March 2026"
+      },
+      "privacy": {
+        "title": "Privacy Policy | Asmita Rahman",
+        "heading": "Privacy Policy",
+        "lastUpdated": "March 2026"
+      }
+    },
+    "resume": {
+      "title": "Resume | Asmita Rahman",
+      "heading": "Resume",
+      "subtitle": "Professional Resume"
+    }
+  },
+  "profile": {
+    "name": "Asmita Rahman",
+    "subtitle": "AI/ML & Full-Stack Developer",
+    "profileImage": "/images/profile.jpg",
+    "description": "Highly motivated Computer Science & Engineering student at Daffodil International University with hands-on experience in AI/ML, deep learning, full-stack web development, and computer vision. Seeking a technology internship to apply expertise in building AI agents, deploying ML models with Docker, and developing scalable applications.",
+    "social": [
+      {
+        "icon": "fa-brands fa-github",
+        "url": "https://github.com/asmi-bae"
+      },
+      {
+        "icon": "fa-solid fa-globe",
+        "url": "https://asmi-bae.github.io"
+      },
+      {
+        "icon": "fa-solid fa-envelope",
+        "url": "mailto:rahman23105101412@diu.edu.bd"
+      },
+      {
+        "icon": "fa-solid fa-phone",
+        "url": "tel:+8801310455508"
+      }
+    ]
+  },
+  "about": {
+    "image": "/images/about/about.jpeg",
+    "text": [
+      "I am a 4th-year Computer Science & Engineering student at Daffodil International University with a passion for building intelligent systems and modern software applications.",
+      "My technical journey bridges deep learning, computer vision, and full-stack engineering. I build practical AI solutions such as real-time banknote detection using YOLOv11 and Docker, multi-tool medical AI agents using LangChain, and crowd flow analysis with heatmap tracking. On the web side, I design scalable, responsive architectures with TypeScript, React.js, FastAPI, and Node.js.",
+      "Beyond coding, I actively participate in leadership and academic communities as the Assistant General Secretary of the Computer Girls Computer Club, Associate Member of CPC Club, and Member of the Bangladesh Space Research Society, where I received the Best Executive Award."
+    ],
+    "stats": [
+      {
+        "value": "4th",
+        "label": "Year CSE Student"
+      },
+      {
+        "value": "06+",
+        "label": "Projects Built"
+      },
+      {
+        "value": "04+",
+        "label": "Awards & Recognitions"
+      }
+    ]
+  },
+  "experience": [
+    {
+      "role": "Assistant General Secretary",
+      "company": "Computer Girls Computer Club",
+      "duration": "2024 - Present",
+      "description": "Leading club activities, coordinating hands-on coding workshops, organizing technical events, and mentoring female engineering students in computer science and software development."
+    },
+    {
+      "role": "Volunteer & Member",
+      "company": "Bangladesh Space Research Society",
+      "duration": "2023 - Present",
+      "description": "Organized outreach programs, science seminars, and tech workshops. Honored with the Best Executive Award for dedication and operational excellence."
+    },
+    {
+      "role": "Undergraduate Researcher & Developer",
+      "company": "Daffodil International University",
+      "duration": "2023 - Present",
+      "description": "Developing deep learning models and computer vision pipelines (YOLOv11, Docker, FastAPI), building AI agents with LangChain, and creating responsive web applications."
+    }
+  ],
+  "skills": {
+    "programming_languages": [
+      "Python",
+      "TypeScript",
+      "JavaScript",
+      "C",
+      "C++",
+      "Java"
+    ],
+    "ai_machine_learning": [
+      "YOLOv11",
+      "LangChain",
+      "Computer Vision",
+      "NLP",
+      "Deep Learning",
+      "Object Tracking"
+    ],
+    "frontend": [
+      "React.js",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "backend_and_apis": [
+      "FastAPI",
+      "Node.js",
+      "REST APIs",
+      "Docker"
+    ],
+    "databases": [
+      "MySQL",
+      "MongoDB"
+    ],
+    "devops_and_tools": [
+      "Git & GitHub",
+      "Docker",
+      "VS Code",
+      "Linux"
+    ]
+  },
+  "projects": [
+    {
+      "name": "Bangladeshi Taka Note Detection",
+      "description": "Built a deep learning model using YOLOv11 for real-time banknote detection and classification, deployed as a REST API with Docker containerization for scalable production deployment. Covers an end-to-end ML pipeline from data annotation to containerized inference.",
+      "tech_stack": [
+        "Python",
+        "YOLOv11",
+        "FastAPI",
+        "Docker",
+        "Computer Vision"
+      ],
+      "repository": "https://github.com/asmi-bae/Deployment-of-Bangladeshi-Taka-Note-Detection-Model-Using-REST-API-Docker",
+      "image": "/images/projects/taka-note-detection.jpg",
+      "live_preview": null,
+      "featured": true
+    },
+    {
+      "name": "Multi-Tool AI Agent for Medical Datasets",
+      "description": "Developed an intelligent AI agent for medical dataset interaction using multi-tool orchestration with LangChain. Features NLP-based reasoning and automated web retrieval for healthcare data querying and analysis.",
+      "tech_stack": [
+        "Python",
+        "LangChain",
+        "AI Agents",
+        "NLP"
+      ],
+      "repository": "https://github.com/asmi-bae/Building-a-Multi-Tool-AI-Agent-to-Interact-with-Medical-Datasets-and-Web",
+      "image": "/images/projects/medical-ai-agent.jpg",
+      "live_preview": null,
+      "featured": true
+    },
+    {
+      "name": "AURA",
+      "description": "Intelligent AI assistant with natural language understanding and reasoning capabilities. Built as a full-stack TypeScript application featuring a responsive conversational interface and dynamic workflow execution.",
+      "tech_stack": [
+        "TypeScript",
+        "AI/NLP",
+        "Full-Stack",
+        "Node.js"
+      ],
+      "repository": "https://github.com/asmi-bae/AURA",
+      "image": "/images/projects/aura.jpg",
+      "live_preview": null,
+      "featured": true
+    },
+    {
+      "name": "SYNAPSE",
+      "description": "Collaborative platform enabling team-based workflows and real-time communication. An active open-source project designed for seamless developer teamwork and productivity.",
+      "tech_stack": [
+        "TypeScript",
+        "Full-Stack",
+        "Open Source",
+        "WebSockets"
+      ],
+      "repository": "https://github.com/asmi-bae/SYNAPSE",
+      "image": "/images/projects/synapse.jpg",
+      "live_preview": null,
+      "featured": true
+    },
+    {
+      "name": "People Flow Detection",
+      "description": "Computer vision system for crowd analysis and movement pattern recognition. Utilizes object tracking algorithms paired with heatmap visualization to analyze human density and flow dynamics.",
+      "tech_stack": [
+        "Python",
+        "Computer Vision",
+        "Object Tracking",
+        "Heatmap"
+      ],
+      "repository": "https://github.com/asmi-bae/People-Flow-Detection-using-Object-Tracking-Heatmap",
+      "image": "/images/projects/people-flow.jpg",
+      "live_preview": null,
+      "featured": false
+    },
+    {
+      "name": "Meal Sphere",
+      "description": "Full-stack meal management application built with TypeScript and modern web frameworks. Features structured meal planning, calorie and macro tracking, and nutritional analysis.",
+      "tech_stack": [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "Full-Stack"
+      ],
+      "repository": "https://github.com/asmi-bae/meal-sphere",
+      "image": "/images/projects/meal-sphere.jpg",
+      "live_preview": null,
+      "featured": false
+    }
+  ],
+  "services": [
+    {
+      "title": "AI & Machine Learning",
+      "icon": "fa-solid fa-brain",
+      "description": "Custom deep learning architectures, YOLOv11 computer vision models, LangChain multi-tool AI agents, and NLP data querying systems."
+    },
+    {
+      "title": "Full-Stack Web Development",
+      "icon": "fa-solid fa-code",
+      "description": "Fast, responsive web applications built with TypeScript, React.js, and modern CSS — engineered for performance and clean user experience."
+    },
+    {
+      "title": "Model Deployment & Docker",
+      "icon": "fa-solid fa-server",
+      "description": "High-throughput REST APIs built with FastAPI, containerized with Docker, and structured for scalable, reliable production deployments."
+    },
+    {
+      "title": "Computer Vision & Analytics",
+      "icon": "fa-solid fa-eye",
+      "description": "Object detection, real-time tracking, spatial density heatmaps, and image classification tailored for real-world scenarios."
+    },
+    {
+      "title": "Collaborative Software",
+      "icon": "fa-solid fa-users",
+      "description": "Open-source platforms, team productivity tools, and real-time interactive dashboards with modern developer tooling."
+    },
+    {
+      "title": "Technical Leadership & Mentoring",
+      "icon": "fa-solid fa-award",
+      "description": "Organizing workshops, mentoring peers in programming and algorithms, and leading student initiatives in tech communities."
+    }
+  ],
+  "testimonials": [
+    {
+      "name": "Prof. Dr. Touhid Bhuiyan",
+      "role": "Professor & Head, Dept. of CSE, DIU",
+      "feedback": "Asmita demonstrates remarkable academic discipline, curiosity, and practical capability in software and machine learning. Her proactive participation makes her an outstanding student.",
+      "avatar": "/images/testimonials/avatar-01.jpg"
+    },
+    {
+      "name": "Mr. Shah Md. Tanvir Siddiquee",
+      "role": "Associate Professor, Dept. of CSE, DIU",
+      "feedback": "A talented and hardworking developer who bridges theoretical computer science with practical AI agent and computer vision implementations effectively.",
+      "avatar": "/images/testimonials/avatar-02.jpg"
+    },
+    {
+      "name": "CGCC Executive Committee",
+      "role": "Computer Girls Computer Club",
+      "feedback": "As Assistant General Secretary, Asmita has played a vital role in spearheading programming workshops and fostering an inclusive tech community.",
+      "avatar": "/images/testimonials/avatar-03.jpg"
+    },
+    {
+      "name": "BSRS Leadership Team",
+      "role": "Bangladesh Space Research Society",
+      "feedback": "Her organizational skill and dedication earned her the Best Executive Award. Asmita brings relentless energy and clarity to every initiative she undertakes.",
+      "avatar": "/images/testimonials/avatar-04.jpg"
+    },
+    {
+      "name": "Project Collaborator",
+      "role": "Open Source Contributor",
+      "feedback": "Working on collaborative projects with Asmita is inspiring. She writes clean TypeScript, pays attention to detail, and delivers ahead of time.",
+      "avatar": "/images/testimonials/avatar-05.jpg"
+    },
+    {
+      "name": "CSE Department Peer",
+      "role": "DIU 4th Year Peer",
+      "feedback": "Asmita is both a gifted problem solver and a patient mentor. Her mastery over computer vision pipelines and web frameworks is truly impressive.",
+      "avatar": "/images/testimonials/avatar-06.jpg"
+    }
+  ],
+  "contact": {
+    "location": "Mirpur, Dhaka-1216, Bangladesh",
+    "email": "rahman23105101412@diu.edu.bd",
+    "phone": "+880 1310-455508"
+  }
+}
