@@ -302,15 +302,15 @@
   ],
   "testimonials": [
     {
-      "name": "Prof. Dr. Touhid Bhuiyan",
-      "role": "Professor, Dept. of CSE, DIU",
+      "name": "Professor Dr. Sheak Rashed Haider Noori",
+      "role": "Professor & Head, Dept. of CSE, DIU",
       "feedback": "Asmita demonstrates remarkable academic discipline, curiosity, and practical capability in software and machine learning. Her proactive participation makes her an outstanding student.",
       "avatar": "/images/testimonials/avatar-01.jpg"
     },
     {
-      "name": "Mr. Shah Md. Tanvir Siddiquee",
-      "role": "Associate Professor, Dept. of CSE, DIU",
-      "feedback": "A talented and hardworking developer who bridges theoretical computer science with practical AI agent and computer vision implementations effectively.",
+      "name": "Professor Dr. Md. Fokhray Hossain",
+      "role": "Dean, FSIT & Professor, Dept. of CSE, DIU",
+      "feedback": "A talented and hardworking student who bridges theoretical computer science with practical AI agent and computer vision implementations effectively.",
       "avatar": "/images/testimonials/avatar-02.jpg"
     },
     {

@@ -183,16 +183,24 @@ export const RESUME_CONTENT: ResumeContent = {
   ],
   references: [
     {
-      name: 'Prof. Dr. Touhid Bhuiyan',
-      lines: ['Professor, Department of CSE', 'Daffodil International University'],
-      email: 'touhid@daffodilvarsity.edu.bd',
-      phone: '+880 2-224441833',
+      name: 'Professor Dr. Sheak Rashed Haider Noori',
+      lines: [
+        'Professor & Head, Department of CSE',
+        'Faculty of Science and Information Technology',
+        'Daffodil International University',
+      ],
+      email: 'drnoori@daffodilvarsity.edu.bd',
+      phone: '+88 01847140016',
     },
     {
-      name: 'Mr. Shah Md. Tanvir Siddiquee',
-      lines: ['Associate Professor, Department of CSE', 'Daffodil International University'],
-      email: 'tanvir.cse@diu.edu.bd',
-      phone: '+880 1711-000000',
+      name: 'Professor Dr. Md. Fokhray Hossain',
+      lines: [
+        'Dean, Faculty of Science and Information Technology',
+        'Professor, Department of CSE',
+        'Daffodil International University',
+      ],
+      email: 'drfokhray@daffodilvarsity.edu.bd',
+      phone: '+88 01713493250',
     },
   ],
   declaration:
