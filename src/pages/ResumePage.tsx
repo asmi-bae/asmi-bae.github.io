@@ -357,6 +357,7 @@ export default function ResumePage() {
                       </ul>
                       <p className="cv-pdf-meta">
                         Sex {content.personal.sex} | Date Of Birth {content.personal.dateOfBirth}
+                        {content.personal.bloodGroup ? ` | Blood Group ${content.personal.bloodGroup}` : ''}
                       </p>
                     </div>
                   </section>

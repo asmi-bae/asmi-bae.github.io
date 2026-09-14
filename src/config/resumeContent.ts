@@ -43,6 +43,7 @@ export interface ResumeContent {
     github: string;
     sex: string;
     dateOfBirth: string;
+    bloodGroup?: string;
     photo: string;
   };
   about: string;
@@ -71,6 +72,7 @@ export const RESUME_CONTENT: ResumeContent = {
     github: 'https://github.com/asmi-bae',
     sex: 'Female',
     dateOfBirth: '24.01.2002',
+    bloodGroup: 'AB+',
     photo: '/images/profile.jpg',
   },
   about:
