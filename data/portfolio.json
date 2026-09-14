@@ -342,5 +342,31 @@
     "location": "Mirpur, Dhaka-1216, Bangladesh",
     "email": "rahman23105101412@diu.edu.bd",
     "phone": "+880 1310-455508"
-  }
+  },
+  "achievements": [
+    {
+      "title": "Student Library Award",
+      "organization": "Daffodil International University",
+      "description": "Recognized by Daffodil International University for outstanding academic engagement and library resource utilization.",
+      "icon": "🏆"
+    },
+    {
+      "title": "Best Executive Award",
+      "organization": "Bangladesh Space Research Society",
+      "description": "Awarded by Bangladesh Space Research Society for outstanding event organization and outreach leadership.",
+      "icon": "🏆"
+    },
+    {
+      "title": "Typing Competition Participant",
+      "organization": "Demonstrated proficiency & accuracy",
+      "description": "Participated in typing speed competitions demonstrating strong keyboard proficiency and accuracy.",
+      "icon": "⌨️"
+    },
+    {
+      "title": "Mentor Recognition",
+      "organization": "Academic Mentorship",
+      "description": "Received special recognition from academic mentors for dedication, problem-solving, and consistent technical excellence.",
+      "icon": "🧠"
+    }
+  ]
 }

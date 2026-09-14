@@ -171,6 +171,24 @@ export default function ResumePage() {
           </ul>
         ),
       },
+      ...(content.achievements && content.achievements.length > 0
+        ? [
+            {
+              key: 'achievements',
+              label: 'Achievements',
+              useBodyRow: true,
+              content: (
+                <ul className="cv-pdf-skills">
+                  {content.achievements.map((item) => (
+                    <li key={item.title}>
+                      <strong>{item.title}:</strong> {item.description}
+                    </li>
+                  ))}
+                </ul>
+              ),
+            },
+          ]
+        : []),
       {
         key: 'references',
         label: 'References',

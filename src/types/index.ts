@@ -95,6 +95,13 @@ export interface Contact {
   phone: string;
 }
 
+export interface Achievement {
+  title: string;
+  organization?: string;
+  description: string;
+  icon?: string;
+}
+
 export interface PortfolioData {
   site: SiteData;
   profile: Profile;
@@ -105,4 +112,5 @@ export interface PortfolioData {
   services: Service[];
   testimonials: Testimonial[];
   contact: Contact;
+  achievements?: Achievement[];
 }

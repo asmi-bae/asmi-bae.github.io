@@ -26,6 +26,13 @@ export interface ResumeSkillGroup {
   items: string;
 }
 
+export interface ResumeAchievementItem {
+  title: string;
+  organization?: string;
+  description: string;
+  icon?: string;
+}
+
 export interface ResumeContent {
   personal: {
     name: string;
@@ -49,6 +56,7 @@ export interface ResumeContent {
   projectsPage1: ResumeProjectItem[];
   projectsPage2: ResumeProjectItem[];
   skills: ResumeSkillGroup[];
+  achievements: ResumeAchievementItem[];
   references: ResumeReferenceItem[];
   declaration: string;
 }
@@ -171,13 +179,38 @@ export const RESUME_CONTENT: ResumeContent = {
       items: 'Git & GitHub, Docker, VS Code, Linux',
     },
     {
-      label: 'Achievements & Awards',
-      items:
-        'Best Executive Award (BSRS), Student Library Award (DIU), Typing Competition, Mentor Recognition',
-    },
-    {
       label: 'Languages',
       items: 'Bengali (Native, 100%), English (Proficient, 80%)',
+    },
+  ],
+  achievements: [
+    {
+      title: 'Student Library Award',
+      organization: 'Daffodil International University',
+      description:
+        'Recognized by Daffodil International University for outstanding academic engagement and library resource utilization.',
+      icon: '🏆',
+    },
+    {
+      title: 'Best Executive Award',
+      organization: 'Bangladesh Space Research Society',
+      description:
+        'Awarded by Bangladesh Space Research Society for outstanding leadership, event organization, and outreach programs.',
+      icon: '🏆',
+    },
+    {
+      title: 'Typing Competition Participant',
+      organization: 'Demonstrated proficiency & accuracy',
+      description:
+        'Participated in typing speed competitions demonstrating strong keyboard proficiency and accuracy.',
+      icon: '⌨️',
+    },
+    {
+      title: 'Mentor Recognition',
+      organization: 'Academic Mentorship',
+      description:
+        'Received special recognition from academic mentors for dedication, problem-solving, and consistent technical excellence.',
+      icon: '🧠',
     },
   ],
   references: [
