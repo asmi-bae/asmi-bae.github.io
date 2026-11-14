@@ -4,7 +4,7 @@ import type { ProxyOptions } from 'vite';
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { SITE_URL } from './src/config/site';
-import { blockPlainPortfolioData, dropConsoleInProduction, portfolioDataEncryptionPlugin } from './vite.portfolio-data';
+import { dropConsoleInProduction, syncPortfolioDataPlugin } from './vite.portfolio-data';
 
 const repoName = process.env.GITHUB_REPOSITORY?.split('/')[1] ?? 'asmi-bae.github.io';
 const isUserPage = repoName.endsWith('.github.io');
@@ -78,8 +78,7 @@ export default defineConfig({
   },
   plugins: [
     react(),
-    portfolioDataEncryptionPlugin(),
-    blockPlainPortfolioData(),
+    syncPortfolioDataPlugin(),
     dropConsoleInProduction(),
     {
       name: 'dev-csp-relax',

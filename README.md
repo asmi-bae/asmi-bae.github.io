@@ -15,7 +15,7 @@ Personal portfolio website showcasing my work, skills, projects, and contact det
 ## ✨ Features
 
 - **Modern & Responsive UI**: Fast, interactive portfolio layout.
-- **Dynamic Content**: Portfolio data loaded securely via client-side decryption.
+- **Dynamic Content**: Portfolio data loaded dynamically via JSON.
 - **Contact Form Integration**: Integrated with Turnstile verification and worker API.
 
 ---
