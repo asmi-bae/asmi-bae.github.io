@@ -87,3 +87,4 @@ foreach ($p in $projectsJpeg) {
 }
 
 Write-Host "Image optimization complete!"
+
