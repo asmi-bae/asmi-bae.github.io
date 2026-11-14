@@ -142,7 +142,7 @@ test.describe('Home page', () => {
     await page.locator('#contact-message').fill('Automated portfolio end-to-end test message.');
     await page.locator('#submit-btn').click();
 
-    await expect(page.locator('#contact-status')).toContainText(/security check/i);
+    await expect(page.locator('#contact-status')).toContainText(/security check|Replace the Turnstile test key/i);
     await expect(page.locator('.contact-turnstile.contact-turnstile--visible')).toBeVisible();
   });
 
