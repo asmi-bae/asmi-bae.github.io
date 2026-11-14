@@ -4,14 +4,13 @@ export const PORTFOLIO_DATA_IV_BYTES = 12;
 export const PORTFOLIO_DATA_TAG_BYTES = 16;
 export const PORTFOLIO_DATA_KEY_BYTES = 32;
 
-export function resolvePortfolioDataKey(env = process.env) {
-  const raw = env.VITE_DATA_ENCRYPTION_KEY?.trim() ?? env.DATA_ENCRYPTION_KEY?.trim() ?? '';
+export const DEFAULT_PORTFOLIO_DATA_KEY = '8TLUvl3xGaY7Ue0pgPlIXZLJRKRpyFPjICmo3Gm+/Mo=';
 
-  if (!raw) {
-    throw new Error(
-      'Missing VITE_DATA_ENCRYPTION_KEY. Generate one with: openssl rand -base64 32',
-    );
-  }
+export function resolvePortfolioDataKey(env = process.env) {
+  const raw =
+    env.VITE_DATA_ENCRYPTION_KEY?.trim() ||
+    env.DATA_ENCRYPTION_KEY?.trim() ||
+    DEFAULT_PORTFOLIO_DATA_KEY;
 
   const key = Buffer.from(raw, 'base64');
 

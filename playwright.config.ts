@@ -41,7 +41,8 @@ export default defineConfig({
       VITE_CDN_BASE_URL: process.env.VITE_CDN_BASE_URL ?? '',
       VITE_CLOUDINARY_CLOUD_NAME: process.env.VITE_CLOUDINARY_CLOUD_NAME ?? '',
       VITE_DATA_ENCRYPTION_KEY:
-        process.env.VITE_DATA_ENCRYPTION_KEY ?? '8TLUvl3xGaY7Ue0pgPlIXZLJRKRpyFPjICmo3Gm+/Mo=',
+        process.env.VITE_DATA_ENCRYPTION_KEY?.trim() ||
+        '8TLUvl3xGaY7Ue0pgPlIXZLJRKRpyFPjICmo3Gm+/Mo=',
     },
   },
 });

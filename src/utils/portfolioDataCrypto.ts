@@ -16,14 +16,12 @@ function decodeBase64(value: string): Uint8Array {
   return bytes;
 }
 
-async function importDecryptionKey(): Promise<CryptoKey> {
-  const rawKey = import.meta.env.VITE_DATA_ENCRYPTION_KEY?.trim() ?? '';
+export const DEFAULT_PORTFOLIO_DATA_KEY = '8TLUvl3xGaY7Ue0pgPlIXZLJRKRpyFPjICmo3Gm+/Mo=';
 
-  if (!rawKey) {
-    throw new DataLoadError(
-      'Portfolio data decryption key is not configured. Set VITE_DATA_ENCRYPTION_KEY in your environment.',
-    );
-  }
+async function importDecryptionKey(): Promise<CryptoKey> {
+  const rawKey =
+    import.meta.env.VITE_DATA_ENCRYPTION_KEY?.trim() ||
+    DEFAULT_PORTFOLIO_DATA_KEY;
 
   let keyBytes: Uint8Array;
 
