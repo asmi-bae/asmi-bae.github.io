@@ -22,6 +22,10 @@ export default function ProjectCard({ project, index = 0, animate = true }: Proj
             src={projectImg}
             alt={project.name}
             className="project-card-img"
+            loading="lazy"
+            decoding="async"
+            width={800}
+            height={446}
             onLoad={(event) => {
               const img = event.currentTarget;
               img.classList.add('loaded');

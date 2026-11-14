@@ -59,6 +59,9 @@ export default function About({
                 className="about-img"
                 id="about-img"
                 loading="lazy"
+                decoding="async"
+                width={640}
+                height={640}
               />
             </div>
           </div>

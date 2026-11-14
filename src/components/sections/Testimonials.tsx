@@ -22,6 +22,9 @@ function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
           alt={testimonial.name}
           className="author-img"
           loading="lazy"
+          decoding="async"
+          width={48}
+          height={48}
         />
         <div className="author-info">
           <h4>{testimonial.name}</h4>
